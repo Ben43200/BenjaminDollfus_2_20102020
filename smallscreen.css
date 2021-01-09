@@ -1,0 +1,22 @@
+@media screen and (max-width: 900px){
+  
+  .results__hebergements{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:25px;
+    background-color: gray;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .populaires__results{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .activites{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+  }
+  
+}

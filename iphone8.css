@@ -1,0 +1,414 @@
+/*-------------------------------------*\
+
+#BODY
+
+\*----------------------------------------*/
+
+
+body{
+    background: white;
+    font-family: 'Raleway', sans-serif;
+    max-width:375px;
+    margin: auto;
+}
+
+
+
+
+
+/*------------------------------------------*\
+
+#header
+
+\*-------------------------------------------*/
+
+
+#logo{
+    
+    margin-top:20px;
+}
+.logo__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+   
+}
+
+
+header{
+    
+    height: 600px;
+    width: 375px;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+    
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.menu ul li{
+    padding: 5px;
+    margin-left: 20px;
+}
+
+
+/*
+* Non décoration des liens
+**/
+
+.menu ul li:before {
+    content: "";
+    display: block;
+    height: 0.10em;
+    width: 0%;
+    margin-bottom:70px;
+    background-color:blue;
+    transition: width 0.4s;
+    margin-top: 0px;
+}
+
+.menu ul li:hover:before {
+    width: 100%;
+    
+}
+
+
+
+
+/*-----------------------------------------------*\
+
+#SEARCH BTN
+
+\*-----------------------------------------------*/
+
+/*
+
+*font awesome  lieux
+
+*/
+.fa-map-marker-alt{
+    color: black;
+    border: 10px solid gray;
+    background-color: gray;
+    border-radius: 10px 0px 0px  10px;
+}
+
+
+/*
+
+*Bouton rechercher
+
+*/
+/**
+.btn_1{
+    color:white;
+    background: cornflowerblue;
+    padding: 8px 15px;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.2);
+    margin-right: 15px;
+    
+} 
+
+.form{
+    display:flex;
+    align-items: center;
+    border-radius: 10%;
+    
+}
+input{
+    
+    
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.2);
+    padding: 8px 15px;
+}
+
+**/
+
+/*
+* Non décoration des liens
+*/
+
+a:link { 
+    text-decoration:none; 
+} 
+
+/*------------------------------------------------*\
+
+#FILTRES MENU
+
+\*--------------------------------------------------*/
+
+
+/*
+*Liste filtres
+*/
+.filtre__title{
+ display: flex;
+ align-self: start;
+}
+
+
+.filtres ul{
+    color: black;
+    background: white;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.filtres li {
+    display:inline-flex;
+    background: white;
+    border-style: solid ;
+    border: solid 3px gray;
+    border-radius: 25px;
+    margin: 5px;
+    padding-right: 10px;
+    list-style: none;
+    height: 30px;
+    
+}
+
+
+
+.filtres{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75px;
+    width: 375px;
+}
+/**
+* Fontawesome couleur bleue et cercle
+*/
+
+.filtres i.fas {
+    width: 15px; 
+    height: 15px; 
+    color: white; 
+    background-color:#DEEBFF; 
+    border-radius: 25px;
+    display: inline-flex;
+    line-height: 10px; 
+    margin:auto;
+     font-size: 15px; 
+    text-align: center; 
+    padding: 8px;
+}
+
+
+
+.results__populaires{
+    background-color:#F2F2F2;
+    border-radius: 10px;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+   /** justify-content: space-around;
+    padding:20px 20px 20px 40px;**/
+
+}
+
+.result--populaire{
+    display:flex;
+    flex-direction: column;
+    border:3px solid #F2F2F2;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    
+    
+}
+
+.result--populaire img{
+    width: 30%;
+    height:120px;
+    border: 1px solid;
+    object-fit: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.result__rating{
+    display: flex;
+    list-style-type:none;
+    padding: 2px 0px 0px 5px;  
+    color:blue;
+    font-size:0.8em;
+    margin-top: auto;
+}
+
+.result--populaire{
+   
+    border-radius: 10px;
+    position: relative;
+    display:flex;
+    /**flex-direction: column;**/
+    /**justify-content: space-around;**/
+    padding:20px 20px 20px 40px;
+}
+
+
+.populaires__title{
+    
+    font-size: 1em;
+    margin: 7px 0px 0px 5px;
+}
+.results__hebergements{
+    
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    background-color:#F2F2F2;
+    border-radius: 10px;
+    position: relative;
+    border:3px solid #F2F2F2;
+    padding:90px 50px 100px 50px
+    
+}
+
+/*
+* taille image avec object-fit
+*/
+
+.result img{
+    width: 100%;
+    height:130px;
+    border: 1px solid  white;
+    object-fit: cover;
+    border-radius: 10px;
+    
+    
+}
+
+
+
+/*--------------------------------------------------------*\
+
+#HEBERGEMENT
+
+\*--------------------------------------------------------*/
+/**
+.result{
+    border:3px solid white;
+    border-radius: 10px;
+    background-color: white;
+    
+    
+    
+}**/
+
+/*
+*Couleur et taille hebergement
+*/
+
+.result{
+    border-radius: 10px;
+    border: 3px solid white;
+    height: 210px;
+    background-color: white;
+}
+
+.result__rating{
+    display: flex;
+    list-style-type:none;
+    margin: 0px;
+    padding: 2px 0px 0px 5px;  
+    color:#0065FC;
+    font-size:0.8em;
+    margin: 7px 0px 0px 5px;
+}
+
+.result__title{
+    font-size: 0.85em;
+    margin: 7px 0px 0px 5px;
+    
+}
+.result__price{
+    display:flex;
+    font-size: 0.8em;
+    margin: 7px 0px 0px 5px;
+}
+
+
+.activites__item img{
+    width: 100%;
+    height: 150px;
+    border: 1px solid;
+    object-fit: cover;
+    margin:auto;
+}
+
+
+.activites__item{
+border: 1px solid;
+background-color:#F2F2F2;
+border-radius: 10px;
+width: 75%;
+display:flex;
+flex-direction: column;
+justify-content: center;
+justify-content: space-between;
+}
+
+
+.activites{
+  /** display:grid;**/
+   /**
+    flex-direction: column;
+    align-items: baseline;
+    gap:25px;
+    background-color:#F2F2F2;
+    border-radius: 10px;
+    position: relative;
+    border:3px solid #F2F2F2;
+   /**padding:70px;**/
+   background-color:#F2F2F2;
+   border-radius: 10px;
+   
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   gap:25px;
+
+
+}
+
+
+
+footer  li{
+    list-style: none;
+    font-size: 0.8em;
+}
+
+footer{
+    background-color:#F2F2F2;
+   display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: flex-start;
+    align-content: space-between;
+    display:grid;
+   /** grid-template-columns: 345px 345px 345px;
+    width:1060px;**/
+}
+
+footer ul li:first-child{
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

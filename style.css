@@ -552,12 +552,12 @@ i.far{
     height:150px;
 }
 
-.flex-container_1 .activites__item:nth-child(2){
-    height: 150px; 
+.flex-container_1.activites__item:nth-child(2){
+    height: 20%; 
   
 }
 
-.flex-container_2 .activites__item{
+.flex-container_2 .activites__item:nth-child(1){
     
     height: 10px;
 }

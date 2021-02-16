@@ -198,7 +198,7 @@ a {
     font-size: 15px; 
     text-align: center; 
     padding: 8px;**/
-}
+
 /**
 .fa-money-bill-wave{
     
@@ -209,7 +209,7 @@ a {
     /**border-radius: 25px;
     /**display: inline-flex;
     font-size:15px;
-    /**line-height: 10px;**/ 
+    /**line-height: 10px;
     color: blue;
 }**/
 .fa{
@@ -559,7 +559,7 @@ i.far{
 .flex-container_1 .activites__item_1{
         padding-bottom: 50px;
         background-color: white;
-        height: 300px;
+        height: 200px;
         border-radius: 20px;
         box-shadow: 4px 4px 0px #F2F2F2;
     }
@@ -570,12 +570,24 @@ i.far{
         object-fit: cover;
         margin:auto;
     }
+    .activites__item_1 h4{
+        font-size: 0.8em;
+        /** margin-top: 2px; **/
+        margin: 10px;
+        font-weight: bold;
+    }
     .flex-container_1 .activites__item_2{
         padding-bottom: 50px;
         background-color: white;
-        height: 50px;
+        height: 125px;
         border-radius: 20px;
         box-shadow: 4px 4px 0px #F2F2F2;
+    }
+    .activites__item_2 h4{
+        font-size: 0.8em;
+        /** margin-top: 2px; **/
+        margin: 10px;
+        font-weight: bold;
     }
     .activites__item_2 img{
         width: 100%;
@@ -583,16 +595,18 @@ i.far{
         border-radius: 20px 20px 0px 0px; 
         object-fit: cover;
         margin:auto;
+ 
     }
+    /**
 .flex-container_1 .activites__item:nth-child(2){
     height: 60000px;
     
      
-}
+}**/
 
 .flex-container_2 .activites__item:nth-child(1){
     
-    height: 10px;
+    height: 160px;
 }
 
 .flex-container_1{

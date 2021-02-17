@@ -811,7 +811,6 @@ footer ul li{
 @media screen and (max-width: 600px){
     /**(min-width: 300px)**/
     
-    
     #logo{
         margin-top: 20px;
     }
@@ -860,11 +859,12 @@ footer ul li{
     body{
         margin:auto;
     }**/
-
+    
     header{
         height: 600px;
         /** width: 500px;**/
     }
+    
     .filtre__title{
         display: flex;
         align-self: start;
@@ -986,5 +986,195 @@ footer ul li{
         margin-top: auto;
         margin-left: auto;
     }
-    
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /***
+    #logo{
+        margin-top: 20px;
+    }
+    /**.logo__menu{
+        display: flex;
+        justify-content: space-between;
+        /**align-items: baseline;
+    }*
+    .menu ul {
+        display:flex;
+        /**flex-wrap: nowrap;*
+        position: relative;
+        
+        align-content: flex-start;
+    }
+    
+    .menu ul li::after {
+        
+        content: "";
+        display: block;
+        height: 0.10em;
+        width:0%;
+        /**padding-left: 20px;**/
+        
+        
+        
+        /**margin-bottom: 70px;*
+        background-color:blue;
+        transition: width 0.4s;
+        margin-top: 0px;
+    }
+    .menu ul li:hover:after {
+        width: 100%;
+        /**margin-right: 70px;
+    }
+    .menu{
+        justify-content: flex-start;
+        padding-top:50px;
+    }
+    .inscrire{
+        position: absolute;
+        bottom:80px;
+        left:300px;
+    }
+    /**
+    body{
+        margin:auto;
+    }**/
+/**
+    header{
+        height: 600px;
+        /** width: 500px;
+    }
+    .filtre__title{
+        display: flex;
+        align-self: start;
+    }
+    
+    .results{
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .results__hebergements{
+        display: flex;
+        flex-direction: column;
+        background-color:#F2F2F2;
+        border-radius: 10px;   
+    }
+    
+    .results__populaires{
+        display: flex;
+        flex-direction: column;
+        order: -1;
+        gap: 25px;
+        justify-content: space-around;
+        padding: 20px 20px 20px 40px;
+    }
+    .populaires__infos{
+        display:flex;
+    }
+    .result--populaire img{
+        width: 30%;
+        height:120px;
+        border: 1px solid;
+        object-fit: cover;
+        /**display: flex;**/
+        /**flex-direction: column;**/
+        /** justify-content: center;**
+    }
+    .result--populaire{
+        display: flex;
+        /**border: 3px solid #F2F2F2;*
+        border-radius: 10px;
+        background-color: white;
+        width: 300px;
+        height: 120px;
+        padding: 3px;
+    }
+    .filtres{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 75px;
+        width: 375px;   
+    }
+    
+    /** Activités*
+    
+    
+    .activites{
+        background-color: white;
+        /**display: grid;
+        grid-template-columns: 1fr;**/
+        /** gap:25px;**/
+        /**grid-template-rows: 1fr;**
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .activites__item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 160px;
+        /**margin-bottom: 20px;**
+    }
+    
+    .activites__item:nth-child(odd){
+        /** margin-bottom: auto;**
+        height: 120px;
+    } 
+    .activites__item h4{
+        font-size: 0.8em;
+    }
+    
+    .activites__item img{
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+        margin: auto;
+    }
+    
+    .flex-container_1 .activites__item:nth-child(2) {
+        width: 100%;
+        height: 120px;
+        margin-top: 30px;
+        /**margin-bottom: 20px;**
+        
+        object-fit: cover;
+    }
+    
+    .flex-container_1 .activites__item:nth-child(1){
+        width: 100%;
+        height: 120px;
+        /** margin-bottom: 20px;**/
+        /**margin-top: 40px;**
+    }
+    .flex-container_2 .activites__item{
+        height:120px;
+        /**padding-top:20px;**
+    }
+    .flex-container_2 .activites__item:nth-child(2){
+        margin-top: 30px;
+    }
+    /** footer**
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        margin-left: auto;
+    }**/
+    

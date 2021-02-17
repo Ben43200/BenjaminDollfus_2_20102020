@@ -698,9 +698,11 @@ footer ul li{
 
 /** Responsive tablette**/
 
-@media screen and (min-width:600px) and (max-width: 1024px) {
+@media screen and  (max-width: 900px) {
     
     /**max width 900**/
+    /** min width 600px**
+    (min-width:600px)**/
     body{
         padding: 10px;
         margin:auto;
@@ -806,7 +808,10 @@ footer ul li{
 
 /** Responsive smartphone **/
 
-@media screen and (min-width: 300px) and (max-width: 600px){
+@media screen and (max-width: 600px){
+    /**(min-width: 300px)**/
+    
+    
     #logo{
         margin-top: 20px;
     }
@@ -855,12 +860,11 @@ footer ul li{
     body{
         margin:auto;
     }**/
-    
+
     header{
         height: 600px;
-        /** width: 500px;
+        /** width: 500px;**/
     }
-    
     .filtre__title{
         display: flex;
         align-self: start;

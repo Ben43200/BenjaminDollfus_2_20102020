@@ -859,11 +859,18 @@ footer ul li{
     body{
         margin:auto;
     }**/
+    .filtres{
+        padding-bottom: 130px;
+    }
     
+    .filtres ul li{
+        margin:5px;
+    }
+    /**
     header{
         height: 600px;
-        /** width: 500px;**/
-    }
+        /** width: 500px;*
+    }**/
     
     .filtre__title{
         display: flex;

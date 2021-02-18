@@ -977,7 +977,7 @@ footer ul li{
         margin-top: 50px;
         display:flex;
         flex-direction: column;
-        
+        row-gap: 30px;
         /**margin:auto;**/
     }
     

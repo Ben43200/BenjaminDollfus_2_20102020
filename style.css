@@ -25,7 +25,7 @@ body{
 
 #logo{
     position: absolute;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 /**
 header{
@@ -48,11 +48,14 @@ header{
 .menu ul li{
     padding: 5px;
     margin-left: 20px;
+
     
 }
 .menu ul li a{
     color: #0065FC;
+    margin: 0px 20px 0px 20px;
 }
+
 
 /*
 * Non décoration des liens
@@ -72,15 +75,16 @@ header{
     
     
     
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     background-color: #0065FC;
     transition: width 0.4s;
-    margin-top: 0px;
+    /**padding-bottom: 10px;**/
 }
 
 .menu ul li:hover:before {
     width: 100%;
     /**margin-right: 70px;**/
+   /** margin-bottom: 20px;**/
 }
 
 /*-----------------------------------------------*\

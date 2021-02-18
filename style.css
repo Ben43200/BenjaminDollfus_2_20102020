@@ -51,7 +51,7 @@ header{
     
 }
 .menu ul li a{
-    color:blue;
+    color: #0065FC;
 }
 
 /*
@@ -73,7 +73,7 @@ header{
     
     
     margin-bottom: 70px;
-    background-color:blue;
+    background-color: #0065FC;
     transition: width 0.4s;
     margin-top: 0px;
 }
@@ -109,7 +109,7 @@ header{
 
 .btn_1{
     color: white;
-    background: cornflowerblue; 
+    background: #0065FC; 
     padding: 8px 15px;
     border-radius: 0px 10px 10px 0px;
     /**box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.2);**/
@@ -213,7 +213,7 @@ a {
     color: blue;
 }**/
 .fa{
-    color:blue;
+    color: #0065FC;
 }
 .fa-circle{
     color:#DEEBFF;
@@ -224,7 +224,7 @@ a {
 .fa-stack.fa-lg{
     font-size: 15px;
     right:5px;
-    color: blue;
+    color: #0065FC;
 }
 
 /**
@@ -302,7 +302,7 @@ h4{
 .fa-info{
     width: 10px; 
     height: 10px; 
-    color: blue; 
+    color: #0065FC; 
     background-color: white; 
     border-radius: 25px;
     border: 1px solid  #F2F2F2;
@@ -478,7 +478,7 @@ h4{
     display: flex;
     list-style-type: none;
     padding: 2px 0px 0px 5px;  
-    color: blue;
+    color: #0065FC;
     font-size: 0.8em;
     margin-top: auto;
 }
@@ -636,7 +636,7 @@ i.far{
 .grid-container{
     display:grid;
     grid-template-columns:repeat(12,1fr);
-    margin-left:110px;
+    margin-left:120px;
 }
 
 .item1{
@@ -859,6 +859,12 @@ footer ul li{
     body{
         margin:auto;
     }**/
+
+    .accroche__title{
+        line-height:30px;
+        margin-top: 50px;
+    }
+
     .filtres{
         padding-bottom: 130px;
     }

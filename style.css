@@ -713,10 +713,16 @@ footer ul li{
     }
     .inscrire{
         position: absolute;
-        bottom:80px;
-        left:300px;
+        bottom:55px;   
+             left:300px;
     }
-
+    /**
+    .inscrire{
+        position: absolute;
+        bottom:55px;
+        left:200px;
+        
+    }**/
 .menu ul {
 
     position: relative;

@@ -169,7 +169,15 @@ a {
     list-style: none;
     height: 30px;
     
+} 
+
+@keyframes disparition{
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1}
+    
 }
+.filtres li:hover{ animation: disparition 1s infinite;}
 
 .filtres{
     display: flex;

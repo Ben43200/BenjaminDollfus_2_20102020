@@ -736,12 +736,12 @@ footer ul li{
 .menu ul li::before{
  display:none;
 }
-
+/**
 #logo{
     position: absolute;
-    /**margin-bottom: 40px;**/
+    /***margin-bottom: 40px;
     padding-bottom:80px;
-}
+}**/
     .menu ul li::after {
         
         content: "";
@@ -920,9 +920,15 @@ footer ul li{
         justify-content: flex-start;
         padding-top:50px;
     }
+
+    .menu ul li{
+        margin-top:40px;
+        /**margin-right: 50px;**/
+        
+    }
     .inscrire{
         position: absolute;
-        bottom:55px;
+        bottom:45px;
         left:200px;
         
     }

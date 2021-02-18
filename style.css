@@ -905,7 +905,7 @@ footer ul li{
         padding: 20px 20px 20px 40px;
     }
     .populaires__infos{
-        display:flex;
+        /**display:flex;**/
     }
     .result--populaire img{
         width: 30%;
@@ -914,11 +914,13 @@ footer ul li{
         object-fit: cover;
         /**display: flex;**/
         /**flex-direction: column;**/
-        /** justify-content: center;**/
+        /** justify-content: center*//
     }
+    
     .result--populaire{
         display: flex;
-        /**border: 3px solid #F2F2F2;**/
+        flex-direction: row;
+        border: 3px solid #F2F2F2;
         border-radius: 10px;
         background-color: white;
         width: 300px;

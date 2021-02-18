@@ -810,10 +810,10 @@ footer ul li{
 
 @media screen and (max-width: 600px){
     /**(min-width: 300px)**/
-    
+    /**
     #logo{
-        *margin-top: 20px;
-    }
+        margin-top: 20px;
+    }**/
     /**.logo__menu{
         display: flex;
         justify-content: space-between;

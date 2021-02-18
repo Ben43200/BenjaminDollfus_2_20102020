@@ -25,7 +25,11 @@ body{
 
 #logo{
     position: absolute;
+<<<<<<< HEAD
     padding-top: 50px;
+=======
+    padding-top: 20px;
+>>>>>>> main
 }
 /**
 header{
@@ -54,12 +58,20 @@ header{
 }
 .menu ul li a{
     color: #0065FC;
+<<<<<<< HEAD
     margin: 2px 20px 0px 20px;
    /** padding-bottom: 20px;**/
 }
 
 
 /*  margin: 0px 20px 0px 20px;
+=======
+    margin: 0px 20px 0px 20px;
+}
+
+
+/*
+>>>>>>> main
 * Non décoration des liens
 **/
 
@@ -80,7 +92,11 @@ header{
     margin-bottom: 60px;
     background-color: #0065FC;
     transition: width 0.4s;
+<<<<<<< HEAD
     
+=======
+    /**padding-bottom: 10px;**/
+>>>>>>> main
 }
 
 .menu ul li:hover:before {

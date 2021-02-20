@@ -967,11 +967,14 @@ footer ul li{
     .filtres{
         padding-bottom: 130px;
        
+        
+       
     }
-/**
+
     .filtres ul{
-        margin-top: 200px;
-    }**/
+        margin-bottom:auto;
+        margin-top: auto;
+    }
     
     .filtres ul li{
         margin:5px;
@@ -1152,11 +1155,22 @@ footer ul li{
     }
     
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 370px){
     .info__title h3{
+    font-size: 0.8em;
+    margin-top:50px;
+}
+h4{
     font-size: 0.9em;
 }
+
+.filtres ul {
+    display: flex;
+    flex-direction: column;
+    /** padding-bottom: 50px;**/
+} 
 }
+
 @media screen and (max-width: 760px){
 .filtres li{
     margin:5px

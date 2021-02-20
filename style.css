@@ -795,8 +795,9 @@ footer ul li{
     position: relative;
     
 }
+
 .filtres li{
-    margin:5px
+    margin:2px
 }
 
 /**
@@ -965,7 +966,12 @@ footer ul li{
 
     .filtres{
         padding-bottom: 130px;
+       
     }
+/**
+    .filtres ul{
+        margin-top: 200px;
+    }**/
     
     .filtres ul li{
         margin:5px;
@@ -1151,10 +1157,12 @@ footer ul li{
     font-size: 0.9em;
 }
 }
+@media screen and (max-width: 760px){
+.filtres li{
+    margin:5px
+}
 
-
-
-
+}
 
 
 

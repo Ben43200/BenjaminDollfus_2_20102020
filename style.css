@@ -983,10 +983,12 @@ footer ul li{
     }
     
     .results__hebergements{
-        display: flex;
-        flex-direction: column;
+        /**display: flex;
+        flex-direction: column;**/
         background-color:#F2F2F2;
-        border-radius: 10px;   
+        border-radius: 10px; 
+        grid-template-columns: 1fr; 
+        row-gap: 25px; 
     }
     
     .results__populaires{

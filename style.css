@@ -740,6 +740,7 @@ footer ul li{
     /**max width 900**/
     /** min width 600px**
     (min-width:600px)**/
+   
     body{
         padding: 10px;
         margin:auto;
@@ -794,6 +795,10 @@ footer ul li{
     position: relative;
     
 }
+.filtres li{
+    margin:5px
+}
+
 /**
 .filtres{
     display: flex;
@@ -1139,9 +1144,13 @@ footer ul li{
         margin-top: auto;
         margin-left: auto;
     }
-
+    
 }
-
+@media screen and (max-width: 400px){
+    .info__title h3{
+    font-size: 0.9em;
+}
+}
 
 
 

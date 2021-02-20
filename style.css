@@ -21,23 +21,17 @@ body{
 #header
 
 \*-------------------------------------------*/
-
-
-#logo{
-    position: absolute;
-<<<<<<< HEAD
-    padding-top: 50px;
-=======
-    padding-top: 20px;
->>>>>>> main
-}
 /**
 header{
     
     /**height: 400px;
     width: 1060px;
 }**/
-
+.menu__reservia{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 .menu{
     display: flex;
     justify-content: flex-end;
@@ -1169,7 +1163,9 @@ footer ul li{
 h4{
     font-size: 0.9em;
 }
-
+.filtres{
+    align-items: flex-start;
+}
 .filtres ul {
     display: flex;
     flex-direction: column;
@@ -1183,7 +1179,20 @@ h4{
 }
 
 }
+/**
+@media screen and (min-width: 956px) and (max-width:1010px){
+    .result--populaire{
+        margin-bottom: 14px;
+    }
 
+    }
+    @media screen and (min-width: 924px) and (max-width:956px){
+        .result--populaire{
+            margin-bottom: 15px;
+        }
+    }
+    **/
+        
 
 
 

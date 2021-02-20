@@ -47,12 +47,13 @@ header{
 .menu ul li{
     padding: 5px;
     margin-left: 20px;
+    
 
     
 }
 .menu ul li a{
     color: #0065FC;
-
+    padding:2px;
 }
 
 
@@ -74,8 +75,9 @@ header{
     transition: width 0.4s;
 }
 
-.menu ul li:hover:before {
-    width: 100%;
+.menu ul li:hover::before {
+    width:120%;
+    
     /**margin-right: 70px;**/
    /** margin-bottom: 20px;**/
 }
@@ -734,12 +736,13 @@ footer ul li{
 .menu ul li::before{
  display:none;
 }
-/**
+
 #logo{
     position: absolute;
+
     /***margin-bottom: 40px;
-    padding-bottom:80px;
-}**/
+    padding-bottom:80px;**/
+}
     .menu ul li::after {
         
         content: "";
@@ -762,7 +765,7 @@ footer ul li{
     .inscrire{
         position: absolute;
         bottom:55px;   
-             left:300px;
+             left:150px;
     }
     /**
     .inscrire{

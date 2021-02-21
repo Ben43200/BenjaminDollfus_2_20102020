@@ -749,9 +749,9 @@ footer ul li{
 
 /** Responsive smartphone **/
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 620px){
     /**(min-width: 300px)**/
-    
+    /**600px**/
     
     .menu ul li::after {
         
@@ -828,8 +828,14 @@ footer ul li{
         background-color: white;
         display: grid;
         grid-template-columns: 1fr;
-        /**grid-template-rows: 700px;**/
+        grid-template-rows: 
     }
+
+
+
+
+
+
     
     .results__hebergements{
         /**display: flex;
@@ -837,18 +843,32 @@ footer ul li{
         background-color:#F2F2F2;
         border-radius: 10px; 
         grid-template-columns: 1fr; 
+        /**grid-template-rows: 700px 700px;**/
         row-gap: 25px; 
+ 
     }
+
+ 
     
     .results__populaires{
         display: flex;
         flex-direction: column;
         order: -1;
-        gap: 25px;
-        justify-content: space-around;
-        /**padding: 20px 20px 20px 40px;**/
-        
+        /**gap: 25px;**/
+        justify-content: space-between;
         padding: 20px 20px 20px 40px;
+        padding-bottom:0%;
+      
+        /**height: 300px;
+       /** padding: 20px 20px 20px 40px;**/
+       /** padding-top: 20px;**/
+        
+       
+        
+        /**margin-top:200px;**/
+        
+
+
     }
     /**
     .populaires__infos{
@@ -871,6 +891,9 @@ footer ul li{
         width: 300px;
         height: 120px;
         padding: 3px;
+        
+
+        /**margin-top:200px**/
     }
     .filtres{
         display: flex;
@@ -1010,7 +1033,6 @@ h4{
 }
 
 
-
 @media screen  and (max-width:900px){
     .results__hebergements{
         display:grid;
@@ -1019,8 +1041,22 @@ h4{
 
 }
 
+@media screen  and (max-width:600px){
+  
+    
+    .results__populaires{
+        /**padding-top:200px;**/
+        height:340px;
+    }
+}
+/**
+@media screen  and (max-width:700px){
+  
+    
+    .results__populaires{
+        padding-top:80px
 
-
+    }**/
 
 /**
 @media screen  and (max-width:900px){

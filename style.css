@@ -275,7 +275,7 @@ a {
     font-size: 1em;
     grid-column: 1/-1; 
     margin-bottom:auto;
-    font-weight: bold;
+    font-weight: 800;
     
 }
 
@@ -346,7 +346,9 @@ a {
 }
 
 .result__title{
-    font-size: 0.85em;
+    font-size: 0.9em;
+/**0.85**/
+
     margin: 7px 0px 0px 5px;
     font-weight: bold;
 }
@@ -384,10 +386,11 @@ a {
     justify-content: space-around;
     padding: 13px 25px 25px 25px;
     
+    
 }
 
 .populaires__title{
-    font-size: 1em;
+    font-size: 0.9em;
     margin: 7px 0px 0px 5px;
 }
 
@@ -700,14 +703,18 @@ footer ul li{
     margin-top: 23px;
     /** align-content: flex-start;**/
 }
-
+/**
 .result__title{
     font-size: 0.9em;
+    
+    
+    
     grid-column: 1/-1;
-}
+}**/
 
 .title__flex .results__title{
     margin-top: 15px;
+    font-size: 1em;
 }
 .results__hebergements .results__title{
     margin-top: auto;
@@ -885,7 +892,8 @@ footer ul li{
     .result--populaire{
         display: flex;
         flex-direction: row;
-        border: 3px solid #F2F2F2;
+        /**border: 3px solid #F2F2F2;**/
+
         border-radius: 10px;
         background-color: white;
         width: 300px;
@@ -1028,6 +1036,7 @@ h4{
     .results__populaires {
     
         padding-bottom: 250px;
+        
     }
     
 }

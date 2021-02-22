@@ -672,7 +672,7 @@ footer ul li{
 
 .menu ul li a:hover {
    
-    border-bottom: 2px solid blue ;
+    border-bottom: 2px solid  #0065FC;  ;
     margin-bottom: 40px;
     border-top: none;
     padding-bottom: 0px;
@@ -684,11 +684,13 @@ footer ul li{
         
    
     
-.menu ul {
 
-    position: relative;
-    
-}
+
+    .menu ul {
+        position: relative;
+        padding-left: 0px;
+    }
+
 
 .filtres li{
     margin:2px
@@ -783,31 +785,25 @@ footer ul li{
         text-decoration:none;
         /**line-height: 70px;**/
         /**padding: 0px 50px;**/
-        border-bottom: 2px solid blue ;
+        border-bottom: 2px solid  #0065FC;  ;
         /**margin-bottom: 40px;**/
         border-top: none;
         padding-bottom: 0px;
+       
     }
-
-
-.menu ul{
-    display: flex;
-   justify-content: stretch;
-    position: relative;
-}
-
+   
 
     .menu{
-      display: flex;
+      
         padding-top:50px;
-       
+        position: relative;
        
     }
 
    
     .inscrire{
         position: absolute;
-        bottom:90px;
+        bottom:100px;
         left:200px;
         
     }
@@ -1047,7 +1043,7 @@ h4{
    
 }
 
-@media screen  and (max-width:600px){
+@media screen  and (max-width:620px){
   
     
     .results__populaires{

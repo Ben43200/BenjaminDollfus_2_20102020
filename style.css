@@ -75,16 +75,7 @@ header{
     }
     
     
-    /**
-    menu ul li a:hover {
-        text-decoration:none;
-        /**line-height: 70px;**
-        padding: 0px 50px;
-        border-top: 2px solid blue ;
-        margin-bottom: 40px;
-        
-        
-    }**/
+  
     
     .menu ul li{
         padding: 5px;
@@ -111,31 +102,7 @@ header{
 
 /**Code à remettre**/
 
-/**
-.menu ul li::before {
-    
-    content: "";
-    display: block;
-    height: 0.10em;
-    width:0%;
-    /**padding-left: 20px;*
-    
-    
-    
-    margin-bottom: 60px;
-    background-color: #0065FC;
-    transition: width 0.5s;
-}
 
-.menu ul li:hover::before {
-    width:120%;
-    
-    /**margin-right: 70px;**
-   /** margin-bottom: 20px;*
-}
-
-
-**/
 
 
 
@@ -362,12 +329,14 @@ a {
     padding: 25px 25px 25px 25px;
     
 }
-
+.result{
+    box-shadow: 4px 4px 0px #F2F2F2;
+  }
 /*
 * taille image avec object-fit
 */
 
-.result img{
+.result--hebergement img{
     width: 100%;
     height: 110px;
     /**border: 1px solid  white;**/
@@ -391,7 +360,7 @@ a {
     background-color: white;
     /**height: 206px;**/
     padding: 3px;
-
+    
     
 }
 
@@ -681,7 +650,7 @@ footer ul li{
     }
     .menu{
         justify-content: flex-start;
-        padding-top:70px;
+       /** padding-top:20px;**/
     }
    /**
 .menu ul li::before{
@@ -690,12 +659,10 @@ footer ul li{
 
 
 
-
 #logo{
     position: absolute;
 
 }
-
 
     /***margin-bottom: 40px;
     padding-bottom:80px;**
@@ -713,38 +680,9 @@ footer ul li{
 }
 
 
-/**
-
-    .menu ul li::after {
+  
         
-        content: "";
-        display: block;
-        height: 0.10em;
-        width:0%;
-        /**padding-left: 20px;**/
-        
-        
-        
-        /**margin-bottom: 70px;**
-        background-color:blue;
-        transition: width 0.4s;
-        margin-top: 0px;
-    }
-    .menu ul li:hover:after {
-        width: 100%;
-        /**margin-right: 70px;*
-    }
-
-**/
-
-
-/**
-
-    .inscrire{
-        position: absolute;
-        bottom:55px;   
-             left:150px;
-    }**/
+   
     
 .menu ul {
 
@@ -756,15 +694,7 @@ footer ul li{
     margin:2px
 }
 
-/**
-.filtres{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /**flex-wrap: wrap;
-    height: 75px;
-    width: 375px;  
-}**/
+
 
 
 
@@ -844,14 +774,10 @@ footer ul li{
 @media screen and (max-width: 620px){
     /**(min-width: 300px)**/
     /**600px**/
-
-
-
-
-
-
-
-
+    #logo{
+        position: absolute;
+    
+    }
 
     .menu ul li a:hover {
         text-decoration:none;
@@ -864,13 +790,6 @@ footer ul li{
     }
 
 
-
-
-
-
-
-
-
 .menu ul{
     display: flex;
    justify-content: stretch;
@@ -878,9 +797,6 @@ footer ul li{
 }
 
 
-
-
-    
     .menu{
       display: flex;
         padding-top:50px;
@@ -889,27 +805,13 @@ footer ul li{
     }
 
    
-    
     .inscrire{
         position: absolute;
         bottom:90px;
         left:200px;
         
     }
-    /**
-    body{
-        margin:auto;
-    }**/
-
-
-   /**
-    .accroche__title{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-
-    **/
+ 
     .accroche__title h3{
         line-height: 15px;
     }
@@ -917,9 +819,7 @@ footer ul li{
 
     .filtres{
         padding-bottom: 130px;
-       
-        
-       
+     
     }
 
     .filtres ul{
@@ -930,11 +830,6 @@ footer ul li{
     .filtres ul li{
         margin:5px;
     }
-    /**
-    header{
-        height: 600px;
-        /** width: 500px;*
-    }**/
     
     .filtre__title{
         display: flex;
@@ -951,14 +846,18 @@ footer ul li{
     .results__hebergements{
         /**display: flex;
         flex-direction: column;**/
-        background-color:#F2F2F2;
+        /**background-color:#F2F2F2;**/
+
+        
+        background:none;
+
         border-radius: 10px; 
         grid-template-columns: 1fr; 
         /**grid-template-rows: 700px 700px;**/
         row-gap: 25px; 
- 
+        border: none;
     }
-
+  
  
     
     .results__populaires{
@@ -970,15 +869,7 @@ footer ul li{
         padding: 20px 20px 20px 40px;
         padding-bottom:0%;
       
-        /**height: 300px;
-       /** padding: 20px 20px 20px 40px;**/
-       /** padding-top: 20px;**/
-        
-       
-        
-        /**margin-top:200px;**/
-        
-
+      
 
     }
     /**

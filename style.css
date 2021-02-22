@@ -221,7 +221,7 @@ a {
 
 
 .accroche__title{
-    /**line-height:4px;**/
+    line-height:4px;
     margin-top: 50px;
 }
 .accroche__title h4{
@@ -801,10 +801,19 @@ footer ul li{
         margin:auto;
     }**/
 
+
+   /**
     .accroche__title{
-        /**line-height:30px;**/
-        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
+
+    **/
+    .accroche__title h3{
+        line-height: 15px;
+    }
+
 
     .filtres{
         padding-bottom: 130px;
@@ -988,6 +997,13 @@ footer ul li{
     
 }
 @media screen and (max-width: 370px){
+    .accroche__title h4{
+        line-height: 15px;
+    }
+
+   
+   
+   
     .info__title h3{
     font-size: 0.8em;
     margin-top:50px;

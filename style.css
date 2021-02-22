@@ -51,36 +51,96 @@ header{
 
     
 }
+
+/**
+
+
 .menu ul li a{
     color: #0065FC;
     padding:2px;
 }
 
+**/
+
+
+/**code à enlever si jamais**/
+.menu ul li a{
+        color: #0065FC;
+        /**padding: 0 20px;**/
+        /**margin-top:50px;**/
+       /** padding-top:40px;**/
+        /**text-decoration:none;**/
+        /**transition: width 0.5s;**/
+        padding:30px;
+    }
+    
+    
+    /**
+    menu ul li a:hover {
+        text-decoration:none;
+        /**line-height: 70px;**
+        padding: 0px 50px;
+        border-top: 2px solid blue ;
+        margin-bottom: 40px;
+        
+        
+    }**/
+    
+    .menu ul li{
+        padding: 5px;
+        margin-left: 20px;
+        margin-top: 50px;
+        
+    
+        
+    }
+
+    .menu ul li a:hover {
+        /** text-decoration:none;**/
+         /**line-height: 70px;**/
+        /** padding: 0px 30px;**/
+         border-top: 2px solid blue ;
+         /**margin-bottom: 40px;**/
+         padding-top:50px;
+         
+     }
+     
 
 
 
 
+/**Code à remettre**/
+
+/**
 .menu ul li::before {
     
     content: "";
     display: block;
     height: 0.10em;
     width:0%;
-    /**padding-left: 20px;**/
+    /**padding-left: 20px;*
     
     
     
     margin-bottom: 60px;
     background-color: #0065FC;
-    transition: width 0.4s;
+    transition: width 0.5s;
 }
 
 .menu ul li:hover::before {
     width:120%;
     
-    /**margin-right: 70px;**/
-   /** margin-bottom: 20px;**/
+    /**margin-right: 70px;**
+   /** margin-bottom: 20px;*
 }
+
+
+**/
+
+
+
+
+
 
 /*-----------------------------------------------*\
 
@@ -623,10 +683,10 @@ footer ul li{
         justify-content: flex-start;
         padding-top:70px;
     }
-   
+   /**
 .menu ul li::before{
  display:none;
-}
+}**/
 
 #logo{
     position: absolute;
@@ -634,6 +694,21 @@ footer ul li{
     /***margin-bottom: 40px;
     padding-bottom:80px;**/
 }
+
+
+
+.menu ul li a:hover {
+   
+    border-bottom: 2px solid blue ;
+    margin-bottom: 40px;
+    border-top: none;
+    padding-bottom: 0px;
+    
+}
+
+
+/**
+
     .menu ul li::after {
         
         content: "";
@@ -644,20 +719,26 @@ footer ul li{
         
         
         
-        /**margin-bottom: 70px;**/
+        /**margin-bottom: 70px;**
         background-color:blue;
         transition: width 0.4s;
         margin-top: 0px;
     }
     .menu ul li:hover:after {
         width: 100%;
-        /**margin-right: 70px;**/
+        /**margin-right: 70px;*
     }
+
+**/
+
+
+/**
+
     .inscrire{
         position: absolute;
         bottom:55px;   
              left:150px;
-    }
+    }**/
     
 .menu ul {
 
@@ -757,36 +838,52 @@ footer ul li{
 @media screen and (max-width: 620px){
     /**(min-width: 300px)**/
     /**600px**/
-    
-    .menu ul li::after {
-        
-        content: "";
-        display: block;
-        height: 0.10em;
-        width:0%;
-        /**padding-left: 20px;**/
-        
-        
-        
-        /**margin-bottom: 70px;**/
-        background-color:blue;
-        transition: width 0.4s;
-        margin-top: 0px;
-    }
-    .menu ul li:hover:after {
-        width: 100%;
-        /**margin-right: 70px;**/
-    }
-    .menu{
-        justify-content: flex-start;
-        padding-top:50px;
+
+
+
+
+
+
+
+
+
+    .menu ul li a:hover {
+        text-decoration:none;
+        /**line-height: 70px;**/
+        /**padding: 0px 50px;**/
+        border-bottom: 2px solid blue ;
+        /**margin-bottom: 40px;**/
+        border-top: none;
+        padding-bottom: 0px;
     }
 
-    .menu ul li{
-        margin-top:40px;
-        /**margin-right: 50px;**/
-        
+
+
+
+
+
+
+
+
+.menu ul{
+    display: flex;
+   justify-content: stretch;
+    position: relative;
+}
+
+
+
+
+    
+    .menu{
+        /**justify-content: flex-start;**/
+        padding-top:50px;
+       /** padding-right: 300px;**/
+       
     }
+
+   
+    
     .inscrire{
         position: absolute;
         bottom:90px;

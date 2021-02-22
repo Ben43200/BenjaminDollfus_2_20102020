@@ -221,7 +221,7 @@ a {
 
 
 .accroche__title{
-    line-height:4px;
+    /**line-height:4px;**/
     margin-top: 50px;
 }
 .accroche__title h4{
@@ -252,6 +252,7 @@ a {
 }
 .text-fa_info{
     padding-left: 10px;
+    font-weight: 400;
 }
 
 /*----------------------------------------------------------*\
@@ -384,7 +385,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 13px 25px 25px 25px;
+    padding: 13px 25px 30px 25px;
     
     
 }
@@ -801,7 +802,7 @@ footer ul li{
     }**/
 
     .accroche__title{
-        line-height:30px;
+        /**line-height:30px;**/
         margin-top: 50px;
     }
 

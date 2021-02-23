@@ -793,13 +793,29 @@ footer ul li{
     }
    
 
+    .menu ul li {
+        /* padding: 5px; */
+        /**margin-left: 20px;**/
+        margin-top: 50px;
+        margin-left: auto;
+    }
+
+body{
+    padding:0px;
+}
+
+
+
     .menu{
       
         padding-top:50px;
         position: relative;
        
     }
-
+    .menu ul li a {
+        color: #0065FC;
+        padding: 40px;
+    }
    
     .inscrire{
         position: absolute;

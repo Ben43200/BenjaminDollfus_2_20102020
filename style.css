@@ -696,7 +696,7 @@ footer ul li{
     }
     .menu{
         justify-content: flex-start;
-        /** padding-top:20px;**/
+         padding-left: 150px;
     }
     
     
@@ -855,6 +855,7 @@ footer ul li{
     .menu{
         padding-top:50px;
         position: relative;
+        padding-left:0px;
     }
     
     .menu ul li a {

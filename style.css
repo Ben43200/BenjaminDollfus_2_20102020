@@ -74,7 +74,7 @@ header{
     padding:30px;
 }
 
-
+ 
 
 
 .menu ul li{
@@ -941,20 +941,33 @@ footer ul li{
         margin-top: auto;
         margin-left: auto;
         justify-content: flex-start;
+       height: 460px;
     }
     
     .item1{
-        height: 150px;
+        height: 140px;
     }
     .item2{
-        height: 150px;
+        height: 120px;
     }
     .item3{
-        height: 150px;
+        height: 120px;
+        
     }
     h6{
-        padding-top: 0px;
+        padding-top: 40px;
+    
     }
+    footer ul li{
+        padding-top:0px;
+        padding-bottom: 6px;
+       
+        
+    }
+    
+    
+
+
 }
 @media screen and (max-width: 370px){
     .accroche__title h4{

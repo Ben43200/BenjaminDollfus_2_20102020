@@ -769,10 +769,16 @@ footer ul li{
         /**margin-left: 20px;**/
         margin-top: 50px;
         margin-left: auto;
+    
     }
     
+    
+
+
+
+
     body{
-        padding:0px;
+        padding:5px;
     }
     
     .menu{

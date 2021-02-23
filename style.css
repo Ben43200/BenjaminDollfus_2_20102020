@@ -192,6 +192,9 @@ a {
 }
 .filtres li:hover{ animation: disparition 1s infinite;}
 
+
+
+
 .filtres{
     display: flex;
     align-items: center;

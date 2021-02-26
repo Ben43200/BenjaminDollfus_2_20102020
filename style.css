@@ -7,15 +7,16 @@
 \*----------------------------------------*/
 body{
     font-family: 'Raleway', sans-serif;
+    background: white;
+    
+    /**max-width: 1200px;
+    margin: auto;**/
 }
 
-#main{
-    background: white;
-    font-family: 'Raleway', sans-serif;
+.flux{
     max-width: 1200px;
     margin: auto;
 }
-
 /*------------------------------------------*\
 
 #header
@@ -92,7 +93,7 @@ header{
     /** padding: 0px 30px;**/
     border-top: 2px solid #0065FC; ;
     /**margin-bottom: 40px;**/
-    padding-top:70px;
+    padding-top:65px;
     
 }
 
@@ -754,7 +755,9 @@ footer ul li{
     
     
     /***  Header**/
-    
+    header{
+        padding:0px;
+    }
     
     #logo{
         position: absolute;
@@ -781,7 +784,7 @@ footer ul li{
     
     
 .btn_1{
-    display:none
+    display: none;
 }
 
 .fa-search{
@@ -801,7 +804,7 @@ footer ul li{
 
 
     body{
-        padding:5px;
+        padding:0px;
     }
     
     .menu{

@@ -130,6 +130,10 @@ header{
     margin-right: 15px;   
 } 
 
+.fa-search{
+    visibility: hidden;
+}
+
 .form{
     display: flex;
     align-items: center;
@@ -776,6 +780,22 @@ footer ul li{
     }
     
     
+.btn_1{
+    display:none
+}
+
+.fa-search{
+    color: white;
+    background: #0065FC; 
+    padding:8px;
+    border-radius: 0px 10px 10px 0px;
+    /**box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.2);**/
+    margin-right: 15px; 
+    visibility: visible;
+} 
+
+
+
 
 
 

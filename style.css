@@ -67,6 +67,7 @@ header{
 /**code à enlever si jamais**/
 .menu ul li a{
     color: #0065FC;
+    
     /**padding: 0 20px;**/
     /**margin-top:50px;**/
     /** padding-top:40px;**/
@@ -85,6 +86,7 @@ header{
     
     
     
+    
 }
 
 .menu ul li a:hover {
@@ -95,6 +97,10 @@ header{
     /**margin-bottom: 40px;**/
     padding-top:65px;
     
+}
+.inscrire{
+    font-weight: bold;
+    color:#0065FC ;
 }
 
 

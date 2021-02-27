@@ -128,7 +128,7 @@ font-weight: bold;
 .fa-map-marker-alt{
     color: black;
     border: 10px solid  #F2F2F2;
-    background-color: #F2F2F2;
+   /**background-color: #F2F2F2;**/
     border-radius: 10px 0px 0px 10px;
 }
 
@@ -337,7 +337,7 @@ a {
     background-color: #F2F2F2;
     border-radius: 10px;
     position: relative;
-    border: 3px solid #F2F2F2;
+   /** border: 3px solid #F2F2F2;**/
     padding: 25px 25px 25px 25px;
     
 }
@@ -742,7 +742,7 @@ footer ul li{
         display:flex;
         flex-direction: column;
         justify-content:flex-start;
-        align-items: center;
+    
     }
     
     /***  Activités  **/
@@ -1042,11 +1042,6 @@ footer ul li{
     .menu ul{
         flex-direction: column;
     }
-
-  .menu ul li{
-      border-bottom: none;
-     
-  }
 
 
     .inscrire{

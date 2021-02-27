@@ -80,6 +80,7 @@ header{
 
 
 .menu ul li{
+    color:black;
     padding: 5px;
     margin-left: 20px;
     margin-top: 50px;
@@ -787,10 +788,10 @@ footer ul li{
 
 
     .menu ul{
-        border-bottom: 2px solid gray;
+        border-bottom: 2px solid #F2F2F2;
         /**margin-top: 10px; **/
        /** margin-bottom: 0px;**/
-        width:100%;
+        width:620px;
       /**  margin-bottom:0px;**/
       padding-bottom: 0px;
     }
@@ -1026,6 +1027,11 @@ footer ul li{
     .menu ul{
         flex-direction: column;
     }
+
+    
+
+
+
     .inscrire{
         
         top:0px;
@@ -1074,7 +1080,7 @@ footer ul li{
     
 }
 
-@media screen  and (max-width:900px){
+@media screen and (max-width:900px){
     .results__hebergements{
         display:grid;
         grid-template-columns:1fr;
@@ -1088,7 +1094,7 @@ footer ul li{
         
     }
     
-    
+  
 }
 
 @media screen  and (max-width:620px){
@@ -1115,15 +1121,15 @@ footer ul li{
 
 
 }
+/**
 
-
-@media screen  and (max-width:700px){
+@media screen  and (max-width:800px){
 .menu ul{
     border-bottom:none
     /**margin-top: 10px; **/
    /** margin-bottom: 0px;**/
-    width:100%;
+   /** width:100%;**/
   /**  margin-bottom:0px;**/
-  padding-bottom: 0px;
+  /**padding-bottom: 0px;**
 }
-}
+}**/

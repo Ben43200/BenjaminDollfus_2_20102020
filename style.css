@@ -66,7 +66,7 @@ header{
 
 /**code à enlever si jamais**/
 .menu ul li a{
-  /** color: #0065FC;**/
+    /** color: #0065FC;**/
     
     /**padding: 0 20px;**/
     /**margin-top:50px;**/
@@ -104,10 +104,10 @@ header{
     
 }
 .inscrire a{
-color: #0065FC;
-text-decoration: none;
-font-weight: bold;
-   /** padding: 5px;
+    color: #0065FC;
+    text-decoration: none;
+    font-weight: bold;
+    /** padding: 5px;
     margin-left: 20px;
     margin-top: 50px;**/
     
@@ -128,7 +128,7 @@ font-weight: bold;
 .fa-map-marker-alt{
     color: black;
     border: 10px solid  #F2F2F2;
-   /**background-color: #F2F2F2;**/
+    /**background-color: #F2F2F2;**/
     border-radius: 10px 0px 0px 10px;
 }
 
@@ -337,7 +337,7 @@ a {
     background-color: #F2F2F2;
     border-radius: 10px;
     position: relative;
-   /** border: 3px solid #F2F2F2;**/
+    /** border: 3px solid #F2F2F2;**/
     padding: 25px 25px 25px 25px;
     
 }
@@ -717,10 +717,10 @@ footer ul li{
         /**height: 220px;**/
         display:flex;
         flex-direction: column;
-
-     
-
-
+        
+        
+        
+        
         margin-top: 23px;
     }
     
@@ -742,7 +742,7 @@ footer ul li{
         display:flex;
         flex-direction: column;
         justify-content:flex-start;
-    
+        
     }
     
     /***  Activités  **/
@@ -776,7 +776,7 @@ footer ul li{
     /** max-witdh 620px)
     
     /***  Header**/
-   
+    
     .flux{
         padding:5px;
     }
@@ -792,59 +792,50 @@ footer ul li{
         /**border-top: none;
         margin-bottom:20px;
         /**padding-bottom: 0px;**/
-       /** margin-bottom: 0px;**/
-       width:50%;
-       padding-bottom: 5px;
+        /** margin-bottom: 0px;**/
+        width:50%;
+        padding-bottom: 5px;
     }
-
-
-/*** ESsais**/
-
-
+    
+    
+    /*** ESsais**/
+    
+    
     .menu ul{
         border-bottom: 3px solid #F2F2F2;
-        /**margin-top: 10px; **/
-       /** margin-bottom: 0px;**/
-        /**width:120%;**/
-      /** margin-bottom:0px;**/
-      padding-bottom: 0px;
-
-     
-    
+        padding-bottom: 0px;
+        text-decoration: none;
+        margin-right:40px;
     }
-
-
-/**essais**/
-
+    
+    
     .menu ul li {
         /* padding: 5px; */
         /**margin-left: 20px;**/
         margin-top: 50px;
-        margin-left: auto;
-    
     }
     
+    /**fin de test couleur noire**/
+    .btn_1{
+        display: none;
+    }
     
-.btn_1{
-    display: none;
-}
-
-.fa-search{
-    color: white;
-    background: #0065FC; 
-    padding:8px;
-    border-radius: 0px 10px 10px 0px;
-    /**box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.2);**/
-    margin-right: 15px; 
-    visibility: visible;
-} 
-
-
-
-
-
-
-
+    .fa-search{
+        color: white;
+        background: #0065FC; 
+        padding:8px;
+        border-radius: 0px 10px 10px 0px;
+        /**box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.2);**/
+        margin-right: 15px; 
+        visibility: visible;
+    } 
+    
+    
+    
+    
+    
+    
+    
     body{
         padding:0px;
     }
@@ -856,15 +847,26 @@ footer ul li{
     }
     
     .menu ul li a {
-        color: #0065FC;
-        padding: 40px;
+        
+        padding: 30px;
+
+
+        /***40px**/
     }
     
     .inscrire{
+        
         position: absolute;
         bottom:100px;
         left:200px;
         
+    }
+    
+    
+    .inscrire a{
+        color: #0065FC;
+        text-decoration: none;
+        font-weight: bold;
     }
     
     .accroche__title h3{
@@ -1009,7 +1011,7 @@ footer ul li{
         margin-top: auto;
         margin-left: auto;
         justify-content: flex-start;
-       height: 460px;
+        height: 460px;
     }
     
     .item1{
@@ -1024,15 +1026,15 @@ footer ul li{
     }
     h6{
         padding-top: 40px;
-    
+        
     }
     footer ul li{
         padding-top:0px;
         padding-bottom: 6px;
-       
+        
         
     }
-
+    
 }
 @media screen and (max-width: 370px){
     .accroche__title h4{
@@ -1042,8 +1044,8 @@ footer ul li{
     .menu ul{
         flex-direction: column;
     }
-
-
+    
+    
     .inscrire{
         
         top:0px;
@@ -1064,18 +1066,18 @@ footer ul li{
         flex-direction: column;
         /** padding-bottom: 50px;**/
     } 
-
-
+    
+    
 }
 
 @media screen  and (max-width: 760px){
-
-
+    
+    
     /**760px**/
     .filtres li{
         margin:5px
     }
- 
+    
 }
 
 
@@ -1106,7 +1108,7 @@ footer ul li{
         
     }
     
-  
+    
 }
 
 @media screen  and (max-width:620px){
@@ -1125,7 +1127,7 @@ footer ul li{
         padding-top:14px
         
     }
-
+    
 }
 
 
@@ -1133,22 +1135,22 @@ footer ul li{
     .menu ul{
         border-bottom: 3px solid #F2F2F2;
         /**margin-top: 10px; **/
-       /** margin-bottom: 0px;**/
+        /** margin-bottom: 0px;**/
         width:100%;
-      /** margin-bottom:0px;**/
-      padding-bottom: 0px;
+        /** margin-bottom:0px;**/
+        padding-bottom: 0px;
     }
-      .menu ul li a:hover {
+    .menu ul li a:hover {
         text-decoration:none;
         border-bottom: 2px solid  #0065FC;  ;
         /**margin-bottom: 40px;**/
         /**border-top: none;
         margin-bottom:20px;
         /**padding-bottom: 0px;**/
-       /** margin-bottom: 0px;**/
-       width:50%;
-       padding-bottom: 5px;
+        /** margin-bottom: 0px;**/
+        width:50%;
+        padding-bottom: 5px;
     }
-
     
-    }
+    
+}

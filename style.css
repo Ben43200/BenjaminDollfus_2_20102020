@@ -780,7 +780,7 @@ footer ul li{
         /**padding-bottom: 0px;**/
        /** margin-bottom: 0px;**/
        width:50%;
-       padding-bottom: 4px;
+       padding-bottom: 5px;
     }
 
 
@@ -788,15 +788,16 @@ footer ul li{
 
 
     .menu ul{
-        border-bottom: 2px solid #F2F2F2;
+        border-bottom: 3px solid #F2F2F2;
         /**margin-top: 10px; **/
        /** margin-bottom: 0px;**/
-        width:620px;
-      /**  margin-bottom:0px;**/
+        width:100%;
+      /** margin-bottom:0px;**/
       padding-bottom: 0px;
+
+     
+    
     }
-    
-    
 
 
 /**essais**/
@@ -1121,15 +1122,28 @@ footer ul li{
 
 
 }
-/**
 
-@media screen  and (max-width:800px){
-.menu ul{
-    border-bottom:none
-    /**margin-top: 10px; **/
-   /** margin-bottom: 0px;**/
-   /** width:100%;**/
-  /**  margin-bottom:0px;**/
-  /**padding-bottom: 0px;**
-}
-}**/
+
+@media screen  and (max-width:750px){
+    .menu ul{
+        border-bottom: 3px solid #F2F2F2;
+        /**margin-top: 10px; **/
+       /** margin-bottom: 0px;**/
+        width:100%;
+      /** margin-bottom:0px;**/
+      padding-bottom: 0px;
+    }
+      .menu ul li a:hover {
+        text-decoration:none;
+        border-bottom: 2px solid  #0065FC;  ;
+        /**margin-bottom: 40px;**/
+        /**border-top: none;
+        margin-bottom:20px;
+        /**padding-bottom: 0px;**/
+       /** margin-bottom: 0px;**/
+       width:50%;
+       padding-bottom: 5px;
+    }
+
+    
+    }

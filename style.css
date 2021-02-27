@@ -758,7 +758,7 @@ footer ul li{
 /** Responsive smartphone **/
 
 @media screen and (max-width: 620px){
-    
+    /** max-witdh 620px)
     
     /***  Header**/
    
@@ -774,12 +774,32 @@ footer ul li{
         text-decoration:none;
         border-bottom: 2px solid  #0065FC;  ;
         /**margin-bottom: 40px;**/
-        border-top: none;
-        padding-bottom: 0px;
-        
+        /**border-top: none;
+        margin-bottom:20px;
+        /**padding-bottom: 0px;**/
+       /** margin-bottom: 0px;**/
+       width:50%;
+       padding-bottom: 4px;
+    }
+
+
+/*** ESsais**/
+
+
+    .menu ul{
+        border-bottom: 2px solid gray;
+        /**margin-top: 10px; **/
+       /** margin-bottom: 0px;**/
+        width:100%;
+      /**  margin-bottom:0px;**/
+      padding-bottom: 0px;
     }
     
     
+
+
+/**essais**/
+
     .menu ul li {
         /* padding: 5px; */
         /**margin-left: 20px;**/
@@ -1026,13 +1046,22 @@ footer ul li{
         flex-direction: column;
         /** padding-bottom: 50px;**/
     } 
+
+
 }
 
 @media screen and (max-width: 760px){
     .filtres li{
         margin:5px
     }
-    
+    .menu ul{
+        border-bottom:none
+        /**margin-top: 10px; **/
+       /*margin-bottom: 0px;**/
+        width:100%;
+      /**margin-bottom:0px;**/
+      padding-bottom: 0px;
+    }
 }
 
 
@@ -1082,4 +1111,26 @@ footer ul li{
         padding-top:14px
         
     }
+    
+    .menu ul{
+        border-bottom:none
+     
+    }
+
+
+
+
+
+}
+
+
+@media screen  and (max-width:500px){
+.menu ul{
+    border-bottom:none
+    /**margin-top: 10px; **/
+   /** margin-bottom: 0px;**/
+    width:100%;
+  /**  margin-bottom:0px;**/
+  padding-bottom: 0px;
+}
 }

@@ -793,7 +793,7 @@ footer ul li{
     }
     
     .result--populaire img{
-        width: 30%;
+        width: 120px;
         height:120px;
         border: 1px solid;
         object-fit: cover; 
@@ -974,14 +974,12 @@ footer ul li{
     }
 
    
-}/**
+}
 
 @media screen  and (max-width:700px){
 
     .results__populaires{
         padding-top: 14px;
-        
     }
-
 
 }

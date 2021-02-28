@@ -269,7 +269,7 @@ a {
 
 
 /*
-*Mise en place de la grille hebergemnt
+*Mise en place de la grille hebergement
 */
 
 .results__hebergements{
@@ -599,7 +599,6 @@ footer ul li{
         position: absolute; 
     }
     
-    
     .menu ul li a:hover{ 
         border-bottom: 2px solid  #0065FC;  ;
         margin-bottom: 40px;
@@ -707,7 +706,8 @@ footer ul li{
     .menu ul li {
         margin-top: 50px;
     }
-    
+    /***  Suppression btn_1 ajout fa-search**/
+
     .btn_1{
         display: none;
     }
@@ -835,6 +835,7 @@ footer ul li{
         flex-direction: column;
         height: 120px;
     }
+/** Redimensionnement flex-container**/
 
     .flex-container_1 .activites__item_1{
         width: 100%;
@@ -893,6 +894,9 @@ footer ul li{
     }
     
 }
+
+/*** @media intermédiares**/
+
 @media screen and (max-width: 370px){
     
     .accroche__title h4{

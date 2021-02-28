@@ -972,13 +972,16 @@ footer ul li{
     .results__populaires{
         height: 340px;
     }
-}
+
+   
+}/**
 
 @media screen  and (max-width:700px){
 
     .results__populaires{
-        padding-top: 14px
+        padding-top: 14px;
         
     }
-    
+
+
 }

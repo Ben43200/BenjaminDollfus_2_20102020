@@ -21,15 +21,20 @@ body{
 #header
 
 \*-------------------------------------------*/
+.logo{
+padding-top:200px;
 
+}
 .menu__reservia{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-end;
+    
 }
 .menu{
     display: flex;
-    justify-content: flex-end;
+    
+    
 }
 
 .menu ul{
@@ -40,7 +45,7 @@ body{
 }
 
 .menu ul li a{
-    padding:30px;
+    padding:20px;
 }
 
 .menu ul li{
@@ -48,13 +53,13 @@ body{
     text-decoration: none;
     padding: 5px;
     margin-left: 20px;
-    margin-top: 50px;    
+    margin-top: 60px;    
 }
 
 
 .menu ul li a:hover {
     border-top: 2px solid #0065FC; 
-    padding-top: 70px;
+    padding-top: 60px;
     color: #0065FC;    
 }
 
@@ -325,6 +330,12 @@ a {
     font-size: 0.8em;
     margin-top: auto;
 }
+
+.fa-star--empty{
+    color:#D3D3D3;
+}
+
+
 
 .result__title{
     font-size: 0.9em;

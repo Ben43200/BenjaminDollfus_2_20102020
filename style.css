@@ -8,7 +8,7 @@
 body{
     font-family: 'Raleway', sans-serif;
     background: white;
- 
+    
 }
 
 .flux{
@@ -106,8 +106,8 @@ body{
 .form{
     display: flex;
     align-items: center;
-   /** border-radius: 10%;**/
-   
+    /** border-radius: 10%;**/
+    
 }
 
 input{
@@ -611,7 +611,7 @@ footer ul li{
         position: relative;
         padding-left: 0px;
     }
-
+    
     .filtres li{
         margin: 2px
     }
@@ -635,11 +635,11 @@ footer ul li{
         margin-top: 15px;
         font-size: 1em;
     }
-
+    
     .results__hebergements .results__title{
         margin-top: auto;
     }
-
+    
     .result--populaire img{
         width: 100%; 
         border-radius: 10px; 
@@ -685,7 +685,7 @@ footer ul li{
     .flux{
         padding:5px;
     }
-
+    
     #logo{
         position: absolute;
     }
@@ -701,14 +701,16 @@ footer ul li{
         border-bottom: 3px solid #F2F2F2;
         padding-bottom: 0px;
         text-decoration: none;
-        margin-right: 40px;
+       /** margin-right: 40px;**/
+       width:400px;
+       justify-content: flex-start;
     }
-
+    
     .menu ul li {
         margin-top: 50px;
     }
     /***  Suppression btn_1 ajout fa-search**/
-
+    
     .btn_1{
         display: none;
     }
@@ -725,9 +727,9 @@ footer ul li{
     .fa-map-marker-alt{
         padding: 1px;
     }
-
-
-
+    
+    
+    
     body{
         padding:0px;
     }
@@ -747,7 +749,7 @@ footer ul li{
         bottom: 100px;
         left: 200px; 
     }
-
+    
     .inscrire a{
         color: #0065FC;
         text-decoration: none;
@@ -789,7 +791,7 @@ footer ul li{
         row-gap: 25px; 
         border: none;
     }
-
+    
     .results__populaires{
         display: flex;
         flex-direction: column;
@@ -802,8 +804,8 @@ footer ul li{
     .result--populaire img{
         width: 100px;
         height:120px;
-    border-radius: 10px 0px 0px 10px;
- border: 1px solid;
+        border-radius: 10px 0px 0px 10px;
+        border: 1px solid;
         object-fit: cover; 
     }
     
@@ -816,7 +818,7 @@ footer ul li{
         height: 120px;
         padding: 3px;   
     }
-
+    
     .filtres{
         display: flex;
         flex-direction: column;
@@ -843,13 +845,13 @@ footer ul li{
         flex-direction: column;
         height: 120px;
     }
-/** Redimensionnement flex-container**/
-
+    /** Redimensionnement flex-container**/
+    
     .flex-container_1 .activites__item_1{
         width: 100%;
         height: 120px;
     }
-
+    
     .flex-container_1 .activites__item_1{
         display: flex;
         flex-direction: column;
@@ -860,11 +862,11 @@ footer ul li{
         display: flex;
         flex-direction: column;
     }
-
+    
     .flex-container_2{ 
         height: 375px;
     }
-
+    
     .flex-container_1{
         height: 375px;
     }
@@ -883,19 +885,19 @@ footer ul li{
     .item1{
         height: 140px;
     }
-
+    
     .item2{
         height: 120px;
     }
-
+    
     .item3{
         height: 120px;  
     }
-
+    
     h6{
         padding-top: 40px; 
     }
-
+    
     footer ul li{
         padding-top: 0px;
         padding-bottom: 6px; 
@@ -913,8 +915,9 @@ footer ul li{
     
     .menu ul{
         flex-direction: column;
+        border-bottom: none;
     }
-
+    
     .inscrire{ 
         top:0px;
     }
@@ -923,24 +926,24 @@ footer ul li{
         font-size: 0.8em;
         margin-top: 50px;
     }
-
+    
     h4{
         font-size: 0.9em;
     }
-
+    
     .filtres{
         align-items: flex-start;
     }
-
+    
     .filtres ul {
         display: flex;
         flex-direction: column;
     } 
-     
+    
 }
 
 @media screen  and (max-width: 760px){
-
+    
     .filtres li{
         margin:5px
     }
@@ -953,7 +956,7 @@ footer ul li{
         display :grid;
         grid-template-columns: repeat(2,1fr);
     }
-
+    
     .results__populaires {
         padding-bottom: 250px;
         
@@ -980,14 +983,14 @@ footer ul li{
     .results__populaires{
         height: 340px;
     }
-
-   
+    
+    
 }
 
 @media screen  and (max-width:700px){
-
+    
     .results__populaires{
         padding-top: 14px;
     }
-
+    
 }

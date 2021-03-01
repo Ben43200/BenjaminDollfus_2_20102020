@@ -701,9 +701,15 @@ footer ul li{
         border-bottom: 3px solid #F2F2F2;
         padding-bottom: 0px;
         text-decoration: none;
+<<<<<<< Updated upstream
        /** margin-right: 40px;**/
        width:400px;
        justify-content: flex-start;
+=======
+        /** margin-right: 40px;**/
+        width:400px;
+        justify-content: flex-start;
+>>>>>>> Stashed changes
     }
     
     .menu ul li {
@@ -838,6 +844,7 @@ footer ul li{
         margin-top: 50px;
         margin-bottom: 0px;
         row-gap: 30px;
+        
     }
     
     .activites__item{

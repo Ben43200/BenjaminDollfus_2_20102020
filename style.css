@@ -836,42 +836,61 @@ footer ul li{
         background-color: white;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 175px;
+        grid-template-rows: 160px;
         margin-top: 50px;
         margin-bottom: 0px;
         row-gap: 30px;
         
     }
-    
+    .activites__item img{
+        height:100px;
+    }
     .activites__item{
         display: flex;
         flex-direction: column;
-        height: 120px;
+        height: 110px;
     }
     /** Redimensionnement flex-container**/
     
     .flex-container_1 .activites__item_1{
         width: 100%;
-        height: 120px;
+        height: 110px;
     }
+
+    .flex-container_1 .activites__item_2{
+        width: 100%;
+        height: 110px;
+    }
+    
+
     
     .flex-container_1 .activites__item_1{
         display: flex;
         flex-direction: column;
     }
     
+
+    .flex-container_1 .activites__item_1 img{
+        height:100px;
+    }
+    
+    .flex-container_1 .activites__item_2 img{
+        height:100px;
+    }
+    
+
     .activites .flex-container_2 .activites__item{
-        height: 120px;
+        height: 110px;
         display: flex;
         flex-direction: column;
     }
     
     .flex-container_2{ 
-        height: 375px;
+        height: 350px;
     }
     
     .flex-container_1{
-        height: 375px;
+        height: 350px;
     }
     
     /**footer**/

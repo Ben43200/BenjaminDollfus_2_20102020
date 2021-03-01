@@ -33,7 +33,7 @@ padding-top:200px;
 }
 .menu{
     display: flex;
-    
+    justify-content: space-between;
     
 }
 
@@ -713,7 +713,7 @@ footer ul li{
         padding-bottom: 0px;
         text-decoration: none;
        /** margin-right: 40px;**/
-       width:370px;
+       width:100%;
        justify-content: flex-start;
         /** margin-right: 40px;**/
       
@@ -746,7 +746,9 @@ footer ul li{
     body{
         padding:0px;
     }
-    
+    .menu__reservia{
+        align-items:stretch;
+    }
     .menu{
         padding-top: 50px;
         position: relative;
@@ -803,6 +805,7 @@ footer ul li{
         grid-template-columns: 1fr; 
         row-gap: 25px; 
         border: none;
+        padding:0px;
     }
     
     .results__populaires{
@@ -811,7 +814,7 @@ footer ul li{
         order: -1;
         justify-content: space-between;
         padding: 20px 20px 20px 40px;
-        padding-bottom: 0%; 
+       /** padding-bottom: 0%; **/
     }
     
     .result--populaire img{

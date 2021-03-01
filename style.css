@@ -805,7 +805,8 @@ footer ul li{
         grid-template-columns: 1fr; 
         row-gap: 25px; 
         border: none;
-        padding:0px;
+        padding-left:10px;
+        padding-right: 10px;
     }
     
     .results__populaires{

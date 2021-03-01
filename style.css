@@ -22,8 +22,8 @@ body{
 
 \*-------------------------------------------*/
 .logo{
-padding-top:200px;
-
+    padding-top:200px;
+    
 }
 .menu__reservia{
     display: flex;
@@ -49,7 +49,6 @@ padding-top:200px;
 }
 
 .menu ul li{
-    /**color:black;**/
     text-decoration: none;
     padding: 5px;
     margin-left: 20px;
@@ -100,7 +99,6 @@ padding-top:200px;
     background: #0065FC; 
     padding: 8px 15px 11px 15px;
     border-radius: 0px 10px 10px 0px;
-    /**box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.2);**/
     margin-right: 15px;   
 } 
 
@@ -111,7 +109,6 @@ padding-top:200px;
 .form{
     display: flex;
     align-items: center;
-    /** border-radius: 10%;**/
     
 }
 
@@ -477,7 +474,6 @@ i.far{
 
 .activites__item_1 h4{
     font-size: 0.8em;
-    /** margin-top: 2px; **/
     margin: 10px;
     font-weight: bold;
 }
@@ -602,24 +598,18 @@ footer ul li{
         padding: 10px;
         margin: auto;
     }
-
+    
     .menu__reservia{
-        display: flex;
-        justify-content: space-between;
         align-items: flex-start;
         
     }
-
-
-
+    
+    
+    
     .menu{
         justify-content: flex-start;
-        /**padding-left: 150px;**/
+        
     }
-    /**
-    #logo{
-        position: absolute; 
-    }**/
     
     .menu ul li a:hover{ 
         border-bottom: 2px solid  #0065FC;  ;
@@ -699,13 +689,7 @@ footer ul li{
 /** Responsive smartphone **/
 
 @media screen and (max-width: 620px){
-    /** max-witdh 620px)
-    
-    /***  Header**/
-    /**
-    .flux{
-        padding:5px;
-     }**/
+ 
     
     #logo{
         position: absolute;
@@ -722,11 +706,9 @@ footer ul li{
         border-bottom: 3px solid #F2F2F2;
         padding-bottom: 0px;
         text-decoration: none;
-       /** margin-right: 40px;**/
-       width:100%;
-       justify-content: flex-start;
-        /** margin-right: 40px;**/
-      
+        justify-content: flex-start;
+       
+        
     }
     
     .menu ul li {
@@ -825,7 +807,6 @@ footer ul li{
         order: -1;
         justify-content: space-between;
         padding: 20px 20px 20px 40px;
-       /** padding-bottom: 0%; **/
     }
     
     .result--populaire img{
@@ -883,20 +864,20 @@ footer ul li{
         width: 100%;
         height: 110px;
     }
-
+    
     .flex-container_1 .activites__item_2{
         width: 100%;
         height: 110px;
     }
     
-
+    
     
     .flex-container_1 .activites__item_1{
         display: flex;
         flex-direction: column;
     }
     
-
+    
     .flex-container_1 .activites__item_1 img{
         height:120px;
     }
@@ -905,7 +886,7 @@ footer ul li{
         height:120px;
     }
     
-
+    
     .activites .flex-container_2 .activites__item{
         height: 110px;
         display: flex;

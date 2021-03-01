@@ -843,7 +843,7 @@ footer ul li{
         
     }
     .activites__item img{
-        height:100px;
+        height:120px;
     }
     .activites__item{
         display: flex;
@@ -871,11 +871,11 @@ footer ul li{
     
 
     .flex-container_1 .activites__item_1 img{
-        height:100px;
+        height:120px;
     }
     
     .flex-container_1 .activites__item_2 img{
-        height:100px;
+        height:120px;
     }
     
 

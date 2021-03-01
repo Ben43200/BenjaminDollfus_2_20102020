@@ -602,14 +602,24 @@ footer ul li{
         padding: 10px;
         margin: auto;
     }
+
+    .menu__reservia{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+    }
+
+
+
     .menu{
         justify-content: flex-start;
-        padding-left: 150px;
+        /**padding-left: 150px;**/
     }
-    
+    /**
     #logo{
         position: absolute; 
-    }
+    }**/
     
     .menu ul li a:hover{ 
         border-bottom: 2px solid  #0065FC;  ;

@@ -680,7 +680,7 @@ footer ul li{
     
     .grid-container{
         display:flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-right: auto;
     }
 }

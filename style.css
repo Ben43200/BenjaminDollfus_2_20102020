@@ -86,6 +86,7 @@ body{
     border: 10px solid  #F2F2F2;
     border-radius: 10px 0px 0px 10px;
     padding: 2px;
+    background-color:#F2F2F2;
 }
 
 /*
@@ -581,10 +582,10 @@ footer ul li{
 
 @media screen and  (max-width: 900px) {
     
-    .results__hebergements{
+  /** .results__hebergements{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-    }
+    }**/
     
     .results__title{
         padding-top: 20px; 
@@ -689,8 +690,12 @@ footer ul li{
 /** Responsive smartphone **/
 
 @media screen and (max-width: 620px){
- 
-    
+
+.flux{
+    padding:0px;
+}
+
+
     #logo{
         position: absolute;
     }
@@ -762,15 +767,27 @@ footer ul li{
         text-decoration: none;
         font-weight: bold;
     }
+    .form{
+      margin-left: 10px;
+
+    }
     
+    .accroche__title{
+        margin-left: 10px;
+    }
+
     .accroche__title h3{
         line-height: 15px;
     }
     
     .filtres{
-        padding-bottom: 130px;  
+        padding-bottom: 130px;
+        margin-left: 10px;  
     }
-    
+    .info__title{
+      margin-left: 10px;
+          
+    }
     .filtres ul{
         margin-bottom: auto;
         margin-top: auto;
@@ -969,7 +986,7 @@ footer ul li{
         display: flex;
         flex-direction: column;
     } 
-  
+
 
 }
 
